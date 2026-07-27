@@ -1,0 +1,1 @@
+let a, b, c; a = 5; b = 6; c = 7; //a declarção é saparada por vírgula, mas a atribuição é separada por ponto e vírgula
