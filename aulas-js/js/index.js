@@ -1,0 +1,1 @@
+alert("Um alerta rodando em uma página externa");
