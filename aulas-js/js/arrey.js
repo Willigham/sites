@@ -20,3 +20,16 @@ console.log(lista3[2]);
 //receber um valor especifico da lista
 let fruta = lista[3]; // me daria a posição 3 da lista, que é "uva"
 console.log(fruta);
+
+const pessoa = ["Dimitri", "Teixeira", 30, "Professor"];
+
+// pessoa.pop(); // remove o último elemento da lista
+// pessoa.shift(); // remove o primeiro elemento da lista
+document.getElementById("teste").innerHTML = pessoa; // exibe a lista atualizada no HTML
+
+//concatenando listas
+const frutas = ["maçã", "banana", "laranja"];
+const ingredientes = ["leite condensado", "açúcar", "flocos"];
+const saladaDeFrutas = frutas.concat(ingredientes);
+console.log(saladaDeFrutas); // exibe a lista concatenada no console
+
